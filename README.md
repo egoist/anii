@@ -1,8 +1,12 @@
-# anii
+# ANII
 
-> A modern web video player.
+An alternative web app to the awesome video player [IINA](https://lhc70000.github.io/iina/) (Obviously IINA is much more powerful)
 
-[![preview](https://ooo.0o0.ooo/2017/06/02/59314ef42de8c.png)](http://anii.surge.sh)
+<a href="http://anii.surge.sh">
+  <img 
+  width="500"
+  src="https://ooo.0o0.ooo/2017/06/02/5931658e1e2fe.png" />
+</a>
 
 ## Commands
 
