@@ -4,7 +4,7 @@
     <prompt-video />
     <player />
     <footer class="footer container">
-      <strong>Under Development: <a href="https://github.com/egoist/anii">https://github.com/egoist/anii</a></strong>
+      <strong>Under Development: <a href="https://github.com/egoist/anii">ANII</a> v{{ version }}</strong>
     </footer>
   </div>
 </template>
@@ -18,6 +18,11 @@
 
   export default {
     name: 'app',
+    data() {
+      return {
+        version: __VERSION__
+      }
+    },
     components: {
       SiteHeader,
       Player,
