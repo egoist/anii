@@ -10,6 +10,8 @@ As it's using HTML5 video tag, it only supports these formats: MP4, Ogg, WebM.
   src="https://ooo.0o0.ooo/2017/06/02/5931658e1e2fe.png" />
 </a>
 
+You can visit https://anii.surge.sh for an offline version.
+
 ## Commands
 
 You can replace `yarn` with `npm run` here.

@@ -10,7 +10,12 @@
     "build": "poi build",
     "report": "poi build --bundle-report",
     "serve": "serve dist --single",
-    "surge": "npm run build && surge -d anii.surge.sh -p dist"
+    "surge": "npm run build && surge -d anii.surge.sh -p dist",
+    "now": "now .",
+    "start": "serve dist"
+  },
+  "now": {
+    "alias": "anii"
   },
   "babel": {
     "presets": [
