@@ -44,14 +44,9 @@
 </template>
 
 <script>
-  import SlimModal from 'vue-slim-modal'
-
   import event from '../utils/event'
 
   export default {
-    components: {
-      SlimModal
-    },
     data() {
       return {
         isOpen: false,

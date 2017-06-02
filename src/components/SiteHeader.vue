@@ -11,6 +11,7 @@
       type="file"
       hidden="true"
       ref="file"
+      accept="video/webm,video/ogg,video/mp4"
       @change="handleSelectedFile">
     <div class="actions">
       <button @click="openFile" class="button">Open File</button>
