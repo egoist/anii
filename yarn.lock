@@ -410,7 +410,7 @@ babel-helper-replace-supers@^6.24.1:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-helper-vue-jsx-merge-props@^2.0.1, babel-helper-vue-jsx-merge-props@^2.0.2:
+babel-helper-vue-jsx-merge-props@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npmjs.org/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.2.tgz#aceb1c373588279e2755ea1cfd35c22394fd33f8"
 
@@ -1711,10 +1711,6 @@ dot-prop@^4.1.0:
   resolved "https://registry.npmjs.org/dot-prop/-/dot-prop-4.1.1.tgz#a8493f0b7b5eeec82525b5c7587fa7de7ca859c1"
   dependencies:
     is-obj "^1.0.0"
-
-dplayer@DIYgod/DPlayer:
-  version "1.2.0"
-  resolved "https://codeload.github.com/DIYgod/DPlayer/tar.gz/15e770c9884c73e824611943ba30dd975b21e1af"
 
 du@0.1.0:
   version "0.1.0"
@@ -5187,13 +5183,6 @@ vue-loader@^12.1.0:
 vue-router@^2.5.3:
   version "2.5.3"
   resolved "https://registry.npmjs.org/vue-router/-/vue-router-2.5.3.tgz#073783f564b6aece6c8a59c63e298dc2aabfb51b"
-
-vue-slim-modal@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/vue-slim-modal/-/vue-slim-modal-0.3.0.tgz#e9d84f60956d36a3b2760d5808edb2a9653d1d72"
-  dependencies:
-    babel-helper-vue-jsx-merge-props "^2.0.1"
-    object-assign "^4.1.0"
 
 vue-style-loader@^3.0.0:
   version "3.0.1"
