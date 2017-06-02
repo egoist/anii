@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "anii",
+  "productName": "ANII",
+  "description": "A modern web video player.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "surge": "npm run build && surge -d anii.surge.sh -p dist"
+  },
+  "babel": {
+    "presets": [
+      "vue-app"
+    ]
+  },
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com"
+  },
+  "dependencies": {
+    "dplayer": "DIYgod/DPlayer",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "offline-plugin": "^4.8.0",
+    "plyr": "^2.0.13",
+    "promise-polyfill": "^6.0.2",
+    "vue-router": "^2.5.3",
+    "vue-slim-modal": "^0.3.0"
+  },
+  "devDependencies": {
+    "poi": "^8.0.0",
+    "poi-preset-bundle-report": "^1.0.1",
+    "poi-preset-offline": "^8.0.0",
+    "serve": "^3.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "surge": "^0.19.0"
+  }
+}
