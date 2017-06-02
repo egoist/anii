@@ -54,12 +54,14 @@
           // debug: true
           // autoplay: true
         })[0]
-        this.player.on('ready', e => {
+        this.player.on('ready', () => {
+          event.$emit('isLoading', false)
           this.player.play()
         })
       },
       switchVideo(video) {
         this.initPlayer()
+        event.$emit('isLoading', true)
         this.player.source({
           type: 'video',
           sources: [parseVideoURL(video)]

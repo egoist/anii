@@ -4874,6 +4874,10 @@ term-size@^0.1.0:
   dependencies:
     execa "^0.4.0"
 
+text-spinners@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/text-spinners/-/text-spinners-1.0.5.tgz#801825e0643c53ff3ab3d990e1e93ddef97cb805"
+
 thenify-all@^1.0.0, thenify-all@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/thenify-all/-/thenify-all-1.6.0.tgz#1a1918d402d8fc3f98fbf234db0bcc8cc10e9726"

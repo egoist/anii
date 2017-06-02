@@ -28,6 +28,7 @@
     "offline-plugin": "^4.8.0",
     "plyr": "^2.0.13",
     "promise-polyfill": "^6.0.2",
+    "text-spinners": "^1.0.5",
     "vue-router": "^2.5.3",
     "vue-slim-modal": "^0.3.0"
   },

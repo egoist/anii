@@ -32,6 +32,8 @@
   }
 </script>
 
+<style src="text-spinners/spinners.css"></style>
+
 <style lang="stylus" scoped>
   .footer
     padding: 30px 0

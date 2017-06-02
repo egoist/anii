@@ -2,6 +2,10 @@
   <header class="header container">
     <h1 class="site-name">
       <router-link to="/">ANII</router-link>
+      <span
+        v-show="loading"
+        class="loading beam">
+      </span>
     </h1>
     <input
       type="file"
@@ -21,6 +25,11 @@
   const URL = window.URL || window.webkitURL
 
   export default {
+    computed: {
+      loading() {
+        return event.loading
+      }
+    },
     mounted() {
       event.$on('openFile', this.openFile)
     },
