@@ -2,6 +2,8 @@
 
 An alternative web app to the awesome video player [IINA](https://lhc70000.github.io/iina/) (Obviously IINA is much more powerful)
 
+As it's using HTML5 video tag, it only supports these formats: MP4, Ogg, WebM.
+
 <a href="http://anii.surge.sh">
   <img 
   width="500"
