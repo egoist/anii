@@ -78,7 +78,6 @@
 <style lang="stylus" scoped>
   .cinema
     background-color: #000
-    min-height: 400px
 
   .player
     max-width: 900px
@@ -86,5 +85,7 @@
     height: 100%
     position: relative
 
-
+  @media screen and (min-width: 768px)
+    .cinema
+      min-height: 400px
 </style>
